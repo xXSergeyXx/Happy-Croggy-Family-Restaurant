@@ -1,7 +1,1 @@
-/.vs/**.*.json
-/.vs/**.*.db
-/.vs/**.*.opendb
-/.vs/**.*.sqlite
-/.vs/**.*.db-shm
-/.vs/**.*.db-wal
-/.vs/**.*.suo
+.vs/
