@@ -4,3 +4,4 @@
 /.vs/**.*.sqlite
 /.vs/**.*.db-shm
 /.vs/**.*.db-wal
+/.vs/**.*.suo
