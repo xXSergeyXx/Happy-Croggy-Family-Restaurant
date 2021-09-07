@@ -1,1 +1,6 @@
 .vs/
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.json
