@@ -5,14 +5,12 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
-#include "Ligrary/Menu.h"
+#include "Library/Menu.hpp"
 
 using namespace sf;
 
 int main() {
 	RenderWindow window(VideoMode(1366, 786), "test stand");
-
-
 
 	while (window.isOpen()) {
 		Event event;
