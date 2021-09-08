@@ -1,7 +1,28 @@
+/*
+главная функция игры.
+*/
+
+#include <iostream>
 #include <SFML/Graphics.hpp>
-#include <SFML/Audio.hpp>
-#include "Library/menu.hpp"
-#include <string>
+
+#include "Ligrary/Menu.h"
+
 using namespace sf;
 
-void main();
+int main() {
+	RenderWindow window(VideoMode(1366, 786), "test stand");
+
+
+
+	while (window.isOpen()) {
+		Event event;
+		while (window.pollEvent(event))
+		{
+			if (event.type == sf::Event::Closed)
+				window.close();
+		}
+		window.clear();
+		menu(window);
+		window.display();
+	}
+}
