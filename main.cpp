@@ -4,7 +4,7 @@
 #include <iostream>
 #include <windows.h>
 
-#include "HCFR/HCFR/Menu.h"
+#include "Menu.h"
 
 /*
 меню в мейн из-за не правильности поставления переменных.
